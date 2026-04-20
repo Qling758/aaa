@@ -1,1 +1,1 @@
-https://ontario-nascar-compilation-forbes.trycloudflare.com/
+https://ontario-nascar-compilation-forbes.trycloudflare.com
