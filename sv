@@ -1,1 +1,1 @@
-https://signatures-partially-extras-renewal.trycloudflare.com
+ https://exclusively-cuisine-commonly-certificates.trycloudflare.com
