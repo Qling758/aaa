@@ -1,0 +1,527 @@
+import {a as w, u as y, r as p, d as M, j as e, L as z, c as T, s as u, e as A} from "./index-Br4HG983.js";
+import {c as h} from "./createLucideIcon-BhqYQtZF.js";
+import {a as g, C as q} from "./clipboard-copy-CYobJFPo.js";
+const _ = [["path", {
+    d: "M2.586 17.414A2 2 0 0 0 2 18.828V21a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h1a1 1 0 0 0 1-1v-1a1 1 0 0 1 1-1h.172a2 2 0 0 0 1.414-.586l.814-.814a6.5 6.5 0 1 0-4-4z",
+    key: "1s6t7t"
+}], ["circle", {
+    cx: "16.5",
+    cy: "7.5",
+    r: ".5",
+    fill: "currentColor",
+    key: "w0ekpg"
+}]]
+  , N = h("key-round", _);
+const D = [["path", {
+    d: "M13 5h8",
+    key: "a7qcls"
+}], ["path", {
+    d: "M13 12h8",
+    key: "h98zly"
+}], ["path", {
+    d: "M13 19h8",
+    key: "c3s6r1"
+}], ["path", {
+    d: "m3 17 2 2 4-4",
+    key: "1jhpwq"
+}], ["path", {
+    d: "m3 7 2 2 4-4",
+    key: "1obspn"
+}]]
+  , f = h("list-checks", D);
+const I = [["path", {
+    d: "m16 17 5-5-5-5",
+    key: "1bji2h"
+}], ["path", {
+    d: "M21 12H9",
+    key: "dn1m92"
+}], ["path", {
+    d: "M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4",
+    key: "1uf3rs"
+}]]
+  , U = h("log-out", I);
+const S = [["path", {
+    d: "M9 18V5l12-2v13",
+    key: "1jmyc2"
+}], ["circle", {
+    cx: "6",
+    cy: "18",
+    r: "3",
+    key: "fqmcym"
+}], ["circle", {
+    cx: "18",
+    cy: "16",
+    r: "3",
+    key: "1hluhg"
+}]]
+  , b = h("music", S);
+const K = [["path", {
+    d: "M5 12h14",
+    key: "1ays0h"
+}], ["path", {
+    d: "M12 5v14",
+    key: "s699le"
+}]]
+  , v = h("plus", K);
+const L = [["rect", {
+    width: "20",
+    height: "8",
+    x: "2",
+    y: "2",
+    rx: "2",
+    ry: "2",
+    key: "ngkwjq"
+}], ["rect", {
+    width: "20",
+    height: "8",
+    x: "2",
+    y: "14",
+    rx: "2",
+    ry: "2",
+    key: "iecqi9"
+}], ["line", {
+    x1: "6",
+    x2: "6.01",
+    y1: "6",
+    y2: "6",
+    key: "16zg32"
+}], ["line", {
+    x1: "6",
+    x2: "6.01",
+    y1: "18",
+    y2: "18",
+    key: "nzw8ys"
+}]]
+  , k = h("server", L);
+const $ = [["path", {
+    d: "M10 11v6",
+    key: "nco0om"
+}], ["path", {
+    d: "M14 11v6",
+    key: "outv1u"
+}], ["path", {
+    d: "M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6",
+    key: "miytrc"
+}], ["path", {
+    d: "M3 6h18",
+    key: "d0wm0j"
+}], ["path", {
+    d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",
+    key: "e791ji"
+}]]
+  , C = h("trash-2", $);
+const H = [["path", {
+    d: "M18 6 6 18",
+    key: "1bl5f8"
+}], ["path", {
+    d: "m6 6 12 12",
+    key: "d8bk6v"
+}]]
+  , P = h("x", H);
+function F() {
+    const n = w()
+      , l = y()
+      , [t,c] = p.useState("keys");
+    p.useEffect( () => {
+    }
+    , [n]);
+    const r = () => {
+        T(!1),
+        n({
+            to: "/home"
+        })
+    }
+    ;
+    return e.jsxs("main", {
+        className: "mx-auto max-w-2xl px-4 py-6 sm:py-10 space-y-5",
+        children: [e.jsxs("header", {
+            className: "panel-glow p-5 flex items-center justify-between",
+            children: [e.jsxs("div", {
+                children: [e.jsx("span", {
+                    className: "chip",
+                    children: "● ADMIN PANEL"
+                }), e.jsx("h1", {
+                    className: "heading-xl mt-2",
+                    children: "Bảng Điều Khiển"
+                })]
+            }), e.jsxs("button", {
+                onClick: r,
+                className: "btn-ghost flex items-center gap-2",
+                children: [e.jsx(U, {
+                    size: 16
+                }), " Thoát"]
+            })]
+        }), e.jsxs("nav", {
+            className: "grid grid-cols-4 gap-2",
+            children: [e.jsx(j, {
+                active: t === "keys",
+                onClick: () => c("keys"),
+                icon: e.jsx(N, {
+                    size: 14
+                }),
+                label: "Keys"
+            }), e.jsx(j, {
+                active: t === "requests",
+                onClick: () => c("requests"),
+                icon: e.jsx(f, {
+                    size: 14
+                }),
+                label: "Duyệt",
+                badge: l.requests.filter(d => d.status === "pending").length
+            }), e.jsx(j, {
+                active: t === "mods",
+                onClick: () => c("mods"),
+                icon: e.jsx(k, {
+                    size: 14
+                }),
+                label: "Mods"
+            }), e.jsx(j, {
+                active: t === "settings",
+                onClick: () => c("settings"),
+                icon: e.jsx(b, {
+                    size: 14
+                }),
+                label: "Cài đặt"
+            })]
+        }), t === "keys" && e.jsx(E, {}), t === "requests" && e.jsx(B, {}), t === "mods" && e.jsx(O, {}), t === "settings" && e.jsx(G, {}), e.jsx(z, {
+            to: "/home",
+            className: "block text-center text-xs tracking-[0.3em] text-muted-foreground/70 py-4 font-mono",
+            children: "← VỀ TRANG CHÍNH"
+        })]
+    })
+}
+function j({active: n, onClick: l, icon: t, label: c, badge: r}) {
+    return e.jsxs("button", {
+        onClick: l,
+        className: `relative rounded-md px-3 py-2 text-sm font-semibold flex items-center justify-center gap-1.5 border transition ${n ? "bg-primary text-primary-foreground border-primary" : "btn-ghost"}`,
+        style: {
+            fontFamily: "var(--font-display)"
+        },
+        children: [t, " ", c, r ? e.jsx("span", {
+            className: "absolute -top-1.5 -right-1.5 min-w-5 h-5 px-1 rounded-full bg-destructive text-destructive-foreground text-[10px] font-bold flex items-center justify-center",
+            children: r
+        }) : null]
+    })
+}
+function E() {
+    const {keys: n} = y()
+      , [l,t] = p.useState(30)
+      , c = () => {
+        u.set(s => ({
+            ...s,
+            keys: [...s.keys, {
+                code: A(),
+                status: "pending",
+                durationDays: l,
+                enabled: !0,
+                createdAt: Date.now()
+            }]
+        }))
+    }
+      , r = s => {
+        u.set(o => ({
+            ...o,
+            keys: o.keys.filter(i => i.code !== s)
+        }))
+    }
+      , d = s => navigator.clipboard.writeText(s).catch( () => {}
+    );
+    return e.jsxs("section", {
+        className: "panel p-5 space-y-4",
+        children: [e.jsxs("h3", {
+            className: "label-orange flex items-center gap-2",
+            children: [e.jsx(N, {
+                size: 16
+            }), " QUẢN LÝ KEY"]
+        }), e.jsxs("div", {
+            className: "flex gap-2",
+            children: [e.jsx("input", {
+                type: "number",
+                min: 1,
+                value: l,
+                onChange: s => t(Math.max(1, Number(s.target.value) || 1)),
+                className: "field max-w-28"
+            }), e.jsx("span", {
+                className: "self-center text-sm text-muted-foreground",
+                children: "ngày"
+            }), e.jsxs("button", {
+                className: "btn-primary flex items-center gap-2 ml-auto",
+                onClick: c,
+                children: [e.jsx(v, {
+                    size: 16
+                }), " Tạo Key"]
+            })]
+        }), e.jsxs("div", {
+            className: "space-y-2",
+            children: [n.length === 0 && e.jsx("p", {
+                className: "text-sm text-muted-foreground",
+                children: "Chưa có key nào."
+            }), n.slice().reverse().map(s => e.jsxs("div", {
+                className: "panel p-3 flex items-center gap-3 flex-wrap",
+                children: [e.jsx("code", {
+                    className: "font-mono text-primary",
+                    children: s.code
+                }), e.jsx("span", {
+                    className: `chip ${s.status === "active" ? "chip-success" : s.status === "expired" ? "chip-danger" : ""}`,
+                    children: s.status
+                }), e.jsxs("span", {
+                    className: "text-xs text-muted-foreground",
+                    children: [s.durationDays, " ngày"]
+                }), s.expiresAt && e.jsxs("span", {
+                    className: "text-xs text-muted-foreground",
+                    children: ["→ ", new Date(s.expiresAt).toLocaleString()]
+                }), e.jsxs("div", {
+                    className: "ml-auto flex gap-1",
+                    children: [e.jsx("button", {
+                        className: "btn-ghost !py-1.5 !px-2",
+                        onClick: () => d(s.code),
+                        children: e.jsx(g, {
+                            size: 14
+                        })
+                    }), e.jsx("button", {
+                        className: "btn-ghost !py-1.5 !px-2 hover:!border-destructive",
+                        onClick: () => r(s.code),
+                        children: e.jsx(C, {
+                            size: 14
+                        })
+                    })]
+                })]
+            }, s.code))]
+        })]
+    })
+}
+function B() {
+    const {requests: n, keys: l} = y()
+      , t = n.filter(s => s.status === "pending")
+      , c = s => {
+        const o = n.find(x => x.id === s);
+        if (!o || !l.find(x => x.code === o.keyCode))
+            return;
+        const a = Date.now();
+        u.set(x => ({
+            ...x,
+            keys: x.keys.map(m => m.code === o.keyCode ? {
+                ...m,
+                status: "active",
+                boundIp: o.ip,
+                boundDevice: o.device,
+                activatedAt: a,
+                expiresAt: a + m.durationDays * 864e5,
+                enabled: !0
+            } : m),
+            requests: x.requests.map(m => m.id === s ? {
+                ...m,
+                status: "approved"
+            } : m)
+        }))
+    }
+      , r = s => {
+        u.set(o => ({
+            ...o,
+            requests: o.requests.map(i => i.id === s ? {
+                ...i,
+                status: "rejected"
+            } : i)
+        }))
+    }
+      , d = s => navigator.clipboard.writeText(s).catch( () => {}
+    );
+    return e.jsxs("section", {
+        className: "panel p-5 space-y-4",
+        children: [e.jsxs("h3", {
+            className: "label-orange flex items-center gap-2",
+            children: [e.jsx(f, {
+                size: 16
+            }), " DUYỆT IP CÔNG KHAI"]
+        }), t.length === 0 && e.jsx("p", {
+            className: "text-sm text-muted-foreground",
+            children: "Không có yêu cầu chờ duyệt."
+        }), t.map(s => e.jsxs("div", {
+            className: "panel p-3 space-y-2",
+            children: [e.jsxs("div", {
+                className: "flex items-center gap-2 flex-wrap",
+                children: [e.jsx("span", {
+                    className: "label-caps text-[10px] text-primary",
+                    children: "IP"
+                }), e.jsx("code", {
+                    className: "font-mono",
+                    children: s.ip
+                }), e.jsx("button", {
+                    className: "btn-ghost !py-1 !px-2",
+                    onClick: () => d(s.ip),
+                    children: e.jsx(g, {
+                        size: 12
+                    })
+                })]
+            }), e.jsxs("div", {
+                className: "text-xs text-muted-foreground",
+                children: ["Key: ", e.jsx("span", {
+                    className: "font-mono text-foreground",
+                    children: s.keyCode
+                })]
+            }), e.jsxs("div", {
+                className: "text-xs text-muted-foreground break-all",
+                children: ["Device: ", s.device]
+            }), e.jsxs("div", {
+                className: "flex gap-2 pt-1",
+                children: [e.jsxs("button", {
+                    className: "btn-success flex items-center gap-1 !py-2 text-sm",
+                    onClick: () => c(s.id),
+                    children: [e.jsx(q, {
+                        size: 14
+                    }), " Duyệt"]
+                }), e.jsxs("button", {
+                    className: "btn-ghost flex items-center gap-1 hover:!border-destructive",
+                    onClick: () => r(s.id),
+                    children: [e.jsx(P, {
+                        size: 14
+                    }), " Từ chối"]
+                })]
+            })]
+        }, s.id))]
+    })
+}
+function O() {
+    const {mods: n} = y()
+      , [l,t] = p.useState("")
+      , [c,r] = p.useState(9995)
+      , [d,s] = p.useState("safe")
+      , o = () => {
+        l.trim() && (u.set(a => ({
+            ...a,
+            mods: [...a.mods, {
+                id: crypto.randomUUID(),
+                name: l.trim(),
+                port: c,
+                risk: d
+            }]
+        })),
+        t(""))
+    }
+      , i = a => u.set(x => ({
+        ...x,
+        mods: x.mods.filter(m => m.id !== a)
+    }));
+    return e.jsxs("section", {
+        className: "panel p-5 space-y-4",
+        children: [e.jsxs("h3", {
+            className: "label-orange flex items-center gap-2",
+            children: [e.jsx(k, {
+                size: 16
+            }), " LOẠI AIM (MOD)"]
+        }), e.jsxs("div", {
+            className: "grid grid-cols-2 gap-2",
+            children: [e.jsx("input", {
+                className: "field col-span-2",
+                placeholder: "Tên aim (vd: Magic Bullet)",
+                value: l,
+                onChange: a => t(a.target.value)
+            }), e.jsx("input", {
+                className: "field",
+                type: "number",
+                placeholder: "Port",
+                value: c,
+                onChange: a => r(Number(a.target.value) || 0)
+            }), e.jsxs("select", {
+                className: "field",
+                value: d,
+                onChange: a => s(a.target.value),
+                children: [e.jsx("option", {
+                    value: "safe",
+                    children: "AN TOÀN"
+                }), e.jsx("option", {
+                    value: "ban",
+                    children: "NGUY CƠ BAN"
+                })]
+            }), e.jsxs("button", {
+                className: "btn-primary col-span-2 flex items-center justify-center gap-2",
+                onClick: o,
+                children: [e.jsx(v, {
+                    size: 16
+                }), " Thêm loại aim"]
+            })]
+        }), e.jsx("div", {
+            className: "space-y-2",
+            children: n.map(a => e.jsxs("div", {
+                className: "panel p-3 flex items-center gap-3 flex-wrap",
+                children: [e.jsx("span", {
+                    className: "font-semibold",
+                    style: {
+                        fontFamily: "var(--font-display)"
+                    },
+                    children: a.name
+                }), e.jsxs("span", {
+                    className: "font-mono text-sm text-muted-foreground",
+                    children: ["Port ", a.port]
+                }), e.jsx("span", {
+                    className: `chip ${a.risk === "safe" ? "chip-success" : "chip-danger"}`,
+                    children: a.risk === "safe" ? "AN TOÀN" : "NGUY CƠ BAN"
+                }), e.jsx("button", {
+                    className: "btn-ghost ml-auto !py-1.5 !px-2 hover:!border-destructive",
+                    onClick: () => i(a.id),
+                    children: e.jsx(C, {
+                        size: 14
+                    })
+                })]
+            }, a.id))
+        })]
+    })
+}
+function G() {
+    const {settings: n} = y()
+      , [l,t] = p.useState(n.commonIp)
+      , [c,r] = p.useState(n.musicUrl)
+      , [d,s] = p.useState(n.musicEnabled)
+      , o = () => {
+        u.set(i => ({
+            ...i,
+            settings: {
+                commonIp: l,
+                musicUrl: c,
+                musicEnabled: d
+            }
+        }))
+    }
+    ;
+    return e.jsxs("section", {
+        className: "panel p-5 space-y-4",
+        children: [e.jsxs("h3", {
+            className: "label-orange flex items-center gap-2",
+            children: [e.jsx(b, {
+                size: 16
+            }), " CÀI ĐẶT CHUNG"]
+        }), e.jsxs("div", {
+            children: [e.jsx("label", {
+                className: "label-caps text-xs",
+                children: "IP CHUNG"
+            }), e.jsx("input", {
+                className: "field mt-2 font-mono",
+                value: l,
+                onChange: i => t(i.target.value)
+            })]
+        }), e.jsxs("div", {
+            children: [e.jsx("label", {
+                className: "label-caps text-xs",
+                children: "LIÊN KẾT NHẠC YOUTUBE"
+            }), e.jsx("input", {
+                className: "field mt-2",
+                placeholder: "https://youtu.be/...",
+                value: c,
+                onChange: i => r(i.target.value)
+            })]
+        }), e.jsxs("label", {
+            className: "flex items-center gap-3 text-sm",
+            children: [e.jsx("input", {
+                type: "checkbox",
+                checked: d,
+                onChange: i => s(i.target.checked),
+                className: "h-4 w-4"
+            }), "Bật nhạc nền"]
+        }), e.jsx("button", {
+            className: "btn-primary w-full",
+            onClick: o,
+            children: "Lưu cài đặt"
+        })]
+    })
+}
+export {F as component};
